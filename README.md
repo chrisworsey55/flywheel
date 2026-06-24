@@ -1,111 +1,156 @@
 # FLYWHEEL
 
-FLYWHEEL is a self-improving growth-experiment swarm. It studies real ad records, predicts which ads a real advertiser kept alive versus killed, and breeds the hypotheses that predicted fresh holdout reality best.
+**A self-improving growth engine. Born from ATLAS.**
 
-The validation-honesty claim is the product: the truth labels are not authored by this repo. Labels come from advertiser budget decisions visible in ad-library data: survival duration, active status, and impression scale. Weak results are shown as weak results.
+> It doesn't just generate growth ideas. It runs a roster of specialized agents that
+> hypothesize, test against reality, reflect, and rewrite themselves - and it can prove
+> which of its own findings are real instead of fooling itself.
 
-The committed offline sample at `data/raw/fanatics_sportsbook_gb.json` is synthetic generated fixture data, marked with `"synthetic": true`. It exists so `make demo` works without credentials. To reproduce on real data, replace it with a Meta Ad Library/API pull using `make fetch BRAND="Fanatics Sportsbook" MARKET="GB"` or import a CSV with `FROM_CSV=...`.
+---
 
-## How it works
+## Lineage
 
-FLYWHEEL is a self-improving growth-experiment swarm. It runs a four-stage loop: STUDY real advertising data (which ads a company kept running vs. killed - un-authored ground truth pulled from the Meta Ad Library), SUGGEST 25 growth experiments per cycle (readable hypotheses about which offers/framings/segments win), RUN each as an out-of-sample prediction (train on older ads, freeze, predict which held-out recent ads survived - no waiting for conversions), and SELF-IMPROVE by breeding the agents whose predictions best matched reality.
+FLYWHEEL is the second application of an architecture first built as **ATLAS** - a
+self-improving, multi-agent *trading* system. ATLAS's insight was never "AI picks
+stocks." It was **validation honesty**: a leakage-free, deflated evaluator that stops
+a self-improving system from lying to itself about its own results. The market was the
+adversary; you don't get to write its answers.
 
-The moat is validation honesty: a leakage-free, multiple-testing-deflated evaluator that fails closed and is itself stress-tested ("backtest the backtester") against known-null experiments - so the system can prove which of its own findings are real instead of fooling itself. Self-improvement is measured as rising prediction accuracy on fresh, held-out REAL data - not a number climbing on a function we wrote. Clone it, run `make demo`, and point it at any advertiser with `make fetch BRAND=...`.
+That exact failure mode is the dirty secret of every growth org on earth. They don't
+lack ideas - they lack the ability to *trust their own measurement*. Leaky A/B tests,
+attribution theatre, creative that wins in the test and dies in production.
 
-## 20-second quickstart
+FLYWHEEL repoints the ATLAS engine from markets to growth. Same loop. Same moat. New
+substrate.
+
+---
+
+## The agents
+
+Growth isn't one job, so it isn't one agent. FLYWHEEL runs a swarm of specialists,
+each owning one stage of the loop:
+
+| Agent | Owns | What it does |
+|-------|------|--------------|
+| **SCOUT** | Data | Studies real, un-authored signal - which campaigns a company *kept running vs. killed* - and turns it into features. No labels it could cheat from. |
+| **AUGUR** | Hypotheses | Generates growth experiments: readable bets about which offers, framings, and segments win. 25 per cycle. |
+| **GAMBIT** | Testing | Runs each hypothesis as an *out-of-sample prediction* against reality that already exists - no waiting for conversions. |
+| **ARBITER** | Truth | The moat. A leakage-free, multiple-testing-deflated evaluator that *fails closed* - returns null rather than guess. Scores which findings are real. |
+| **SCRIBE** | Reflection | Reads what hit and what missed, and rewrites the prompts/strategies of the agents that were wrong. This is how the swarm learns. |
+| **WARDEN** | Honesty | Stress-tests ARBITER itself - "backtest the backtester" - by feeding it known-null experiments and measuring how often it's fooled. |
+| **CURATOR** | Diversity | Keeps the swarm from collapsing into one idea (N_eff/N floor). Diverse hypotheses, not echo chambers. |
+
+---
+
+## The loop
+
+```text
+SCOUT      ->  feed real data (kept vs. killed signal)
+
+AUGUR      ->  generate growth hypotheses
+
+GAMBIT     ->  test them out-of-sample against reality
+
+ARBITER    ->  score honestly (fail-closed, deflated)
+
+SCRIBE     ->  reflect, rewrite the agents that were wrong
+
+^__________________________________________________|
+
+the swarm self-improves each cycle
+```
+
+**Self-improvement is defined as rising prediction accuracy on fresh, held-out *real*
+data - not a number climbing on a function we wrote.** That distinction is the whole
+point. Anyone can make a chart go up against their own answer key. FLYWHEEL gets
+graded by reality.
+
+---
+
+## The moat: validation honesty
+
+Every "AI for growth" tool generates ideas. FLYWHEEL is the only one built to **prove
+which of its own ideas are real** before you spend on them:
+
+- **Leakage-free.** Train on the past, freeze, predict the held-out future. The
+  evaluator never sees what it's being tested on.
+- **Deflated.** Corrects for the number of experiments tried - no winner's curse, no
+  "we ran 25 things and one looked great."
+- **Fail-closed.** Too little data? It returns *null*, not a confident guess.
+- **Self-audited.** WARDEN feeds ARBITER pure-noise experiments and measures the
+  false-positive rate. If the evaluator leaks, the run halts.
+
+The provocation for any growth team: *point this at the experiments you already think
+are working, and see how many survive honest validation.*
+
+---
+
+## Where it is today (honest status)
+
+This repo is a working, runnable demonstration of the architecture. Being precise
+about what's wired vs. what's next, because honesty is the product:
+
+**Running now:**
+
+- The full loop: study -> suggest -> test out-of-sample -> score -> select -> breed.
+- ARBITER (honest, fail-closed, deflated evaluator) and WARDEN (backtest-the-backtester).
+- CURATOR diversity control.
+- Self-improvement via **evolutionary selection** - agents with different priors,
+  bred by mutation/crossover across cycles, selected on held-out accuracy.
+- Default substrate: ad-survival data (which ads a company kept alive vs. killed),
+  pulled from the Meta Ad Library.
+
+**Designed, next on the roadmap:**
+
+- SCRIBE's full form: agents as LLMs that **rewrite their own prompts** on reflection,
+  rather than evolving parameters. The evolutionary version is the proof-of-loop; the
+  prompt-rewriting version is the upgrade.
+
+**On the sample data:** the committed `data/raw/*.json` is a **synthetic fixture** so
+the demo runs offline with zero credentials. The pipeline is real; swap in a real Ad
+Library pull (`make fetch BRAND=...`) to reproduce on live data. Reported metrics on
+the fixture (AUC, FPR) prove the pipeline computes correctly - they are not claims
+about any real advertiser.
+
+---
+
+## Run it yourself
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/<your-username>/flywheel.git
 cd flywheel
-make demo
+make demo          # runs the engine on the synthetic sample, then the dashboard
+make demo SEED=random   # proves results hold across draws, not cherry-picked
 ```
 
-`make demo` runs offline using `data/raw/fanatics_sportsbook_gb.json`, writes `runs/latest.json` and `runs/history.json`, then starts the Next.js dashboard.
-
-Deterministic by default:
+Point it at any advertiser with a public kept-vs-killed signal:
 
 ```bash
-make run SEED=42
+make fetch BRAND="Fanatics Sportsbook" MARKET="GB"
+make run
 ```
 
-Randomized draw:
+---
 
-```bash
-make run SEED=random
-```
+## Where else the loop runs
 
-## What this is
+FLYWHEEL needs only one thing: **real, un-authored outcome labels.** Anywhere a
+public "kept vs. killed" signal exists, the loop applies:
 
-- A real out-of-sample test against a real advertiser's kept-vs-killed ad decisions.
-- A hypothesis swarm that suggests 25 readable growth experiments per cycle.
-- A fail-closed evaluator that reports naive score and held-out honest score after multiple-testing deflation.
-- A metaevaluation gate that shuffles labels to create known-null experiments; if false-positive rate exceeds 5%, the run halts.
-- A compounding loop where self-improvement means holdout prediction accuracy on fresh real ads rising across cycles.
+- **Ad creative** - which ads survived 60+ days / scaled (Meta Ad Library).
+- **App store** - which app updates and screenshots a publisher kept.
+- **Pricing & landing pages** - which A/B variants survived (web archives).
+- **Job postings** - which roles a company keeps reposting (real, urgent need).
+- **Email** - which subject-line styles recur in public newsletter archives.
 
-## What this is not
+Same engine. Same honesty gate. Different reality to be graded by.
 
-- Not a conversion model.
-- Not proof of creative causality.
-- Not a source of private platform performance data.
-- Survival is a proxy: we infer from budget decisions and impression scale, not conversions.
+---
 
-## Point it at any brand
+## Built by
 
-```bash
-make fetch BRAND="Nike" MARKET="GB"
-make run BRAND="Nike" MARKET="GB"
-```
+Chris Worsey - two-time founder (CourseMatch -> UCAS; SportsIcon). FLYWHEEL is the
+growth-substrate sibling of **ATLAS**, the self-improving trading system that ran the
+same architecture against live markets.
 
-Fetch backends auto-select in this order:
-
-1. `META_AD_LIBRARY_TOKEN`: Meta Ad Library API. Best for EU/UK where inactive ads are retained long enough to observe killed ads.
-2. `APIFY_TOKEN`: Apify Meta Ad Library scraper actor.
-3. CSV fallback:
-
-```bash
-make fetch BRAND="Nike" MARKET="GB" FROM_CSV=data/raw/manual.csv
-```
-
-CSV columns:
-
-`id,advertiser,market,body_text,headline,cta,link_url,media_type,start_date,last_seen_date,is_active,impressions_bucket,low_impression_flag,platforms`
-
-`impressions_bucket` must be one of `<1K`, `1K-10K`, `10K-100K`, `100K-1M`, `1M+`. `platforms` can be comma-separated.
-
-## Label rules
-
-Labels are the only truth:
-
-- `WINNER`: survived at least 60 days, or impressions bucket is at least `100K`.
-- `LOSER`: low impression flag, or inactive and ran fewer than 14 days.
-- Ambiguous middle is dropped.
-
-Features are extracted from creative fields only: offer type, framing, urgency, copy length, emoji, CTA, numeric offer, and lightweight text terms. The feature extractor never sees the label.
-
-## Dashboard
-
-The dashboard is a Next.js 14 app-router project in `web/`, Tailwind styled, Vercel-deployable, and reads `runs/latest.json` plus `runs/history.json`.
-
-Panels include studied ads, today's experiments, compounding curve, honesty gate, winner's curse, diversity, and a live callout textarea for pasted ad copy. There are no HTML `<form>` tags.
-
-## Run the loop on other substrates
-
-The loop only needs real, un-authored outcome labels:
-
-- App Store or Play rankings over time: which app updates and screenshots survived.
-- Pricing or landing-page variants via public web archives: which variants stayed live.
-- Job-posting longevity: which roles a company keeps reposting as a real need signal.
-- Email subject lines from public newsletter archives: open proxy via repost and promotion.
-- Any market with a public kept-vs-killed signal.
-
-## Notes on ATLAS adaptations
-
-Comments mark the adaptation points:
-
-- `engine/diversity.py` adapts the ATLAS Phase B inverse-Simpson N_eff/N breadth fix.
-- `engine/evolve.py` adapts Darwinian selection: honest score, novelty pressure, crossover, mutation, cull.
-- `engine/evaluator.py` adapts the deflated-score honesty gate from finance lift to ad survival prediction.
-
-## License
-
-MIT.
+*MIT licensed. Clone it, run it, try to break it.*
