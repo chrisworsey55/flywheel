@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+web/.next/
+web/node_modules/
+web/.vercel/
+runs/*.tmp
+

@@ -1,0 +1,1035 @@
+{
+  "brand": "Fanatics Sportsbook",
+  "market": "GB",
+  "backend": "committed_sample_placeholder_replace_with_meta_export",
+  "ads": [
+    {
+      "id": "fanatics_gb_sample_001",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-01",
+      "last_seen_date": "2025-01-09",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_002",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-01-04",
+      "last_seen_date": "2025-03-07",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_003",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-07",
+      "last_seen_date": "2025-03-10",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_004",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-10",
+      "last_seen_date": "2025-03-13",
+      "is_active": false,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_005",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-13",
+      "last_seen_date": "2025-03-29",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_006",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-16",
+      "last_seen_date": "2025-01-19",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_007",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-19",
+      "last_seen_date": "2025-05-19",
+      "is_active": true,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_008",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-22",
+      "last_seen_date": "2025-04-07",
+      "is_active": false,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_009",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-01-01",
+      "last_seen_date": "2025-01-04",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_010",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-02-04",
+      "last_seen_date": "2025-04-07",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_011",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-02-07",
+      "last_seen_date": "2025-02-10",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_012",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-02-10",
+      "last_seen_date": "2025-02-15",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_013",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-02-13",
+      "last_seen_date": "2025-02-21",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_014",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-02-16",
+      "last_seen_date": "2025-05-18",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_015",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-02-19",
+      "last_seen_date": "2025-05-05",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_016",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-02-22",
+      "last_seen_date": "2025-05-24",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_017",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-02-01",
+      "last_seen_date": "2025-04-04",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_018",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-02-04",
+      "last_seen_date": "2025-02-12",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_019",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-03-07",
+      "last_seen_date": "2025-05-08",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_020",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-03-10",
+      "last_seen_date": "2025-06-09",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_021",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-03-13",
+      "last_seen_date": "2025-03-25",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_022",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-03-16",
+      "last_seen_date": "2025-07-14",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_023",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-03-19",
+      "last_seen_date": "2025-03-27",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_024",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-03-22",
+      "last_seen_date": "2025-03-30",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_025",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-03-01",
+      "last_seen_date": "2025-03-06",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_026",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-03-04",
+      "last_seen_date": "2025-05-18",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_027",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-03-07",
+      "last_seen_date": "2025-07-05",
+      "is_active": false,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_028",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-04-10",
+      "last_seen_date": "2025-06-24",
+      "is_active": false,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_029",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-04-13",
+      "last_seen_date": "2025-06-27",
+      "is_active": false,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_030",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-04-16",
+      "last_seen_date": "2025-04-24",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_031",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-04-19",
+      "last_seen_date": "2025-06-20",
+      "is_active": true,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_032",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-04-22",
+      "last_seen_date": "2025-07-06",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_033",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-04-01",
+      "last_seen_date": "2025-04-09",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_034",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-04-04",
+      "last_seen_date": "2025-08-02",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_035",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-04-07",
+      "last_seen_date": "2025-04-12",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_036",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-04-10",
+      "last_seen_date": "2025-04-22",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_037",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-13",
+      "last_seen_date": "2025-05-25",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_038",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-16",
+      "last_seen_date": "2025-07-17",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_039",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-19",
+      "last_seen_date": "2025-07-20",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_040",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-22",
+      "last_seen_date": "2025-07-23",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_041",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-01",
+      "last_seen_date": "2025-07-31",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_042",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-05-04",
+      "last_seen_date": "2025-05-09",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_043",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-05-07",
+      "last_seen_date": "2025-08-06",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_044",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-05-10",
+      "last_seen_date": "2025-07-11",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_045",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-13",
+      "last_seen_date": "2025-05-25",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_046",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-06-16",
+      "last_seen_date": "2025-08-30",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_047",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-19",
+      "last_seen_date": "2025-07-01",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_048",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-22",
+      "last_seen_date": "2025-06-27",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_049",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-06-01",
+      "last_seen_date": "2025-06-09",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_050",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-04",
+      "last_seen_date": "2025-09-03",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_051",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-07",
+      "last_seen_date": "2025-09-06",
+      "is_active": true,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_052",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-10",
+      "last_seen_date": "2025-08-24",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_053",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-13",
+      "last_seen_date": "2025-10-11",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    {
+      "id": "fanatics_gb_sample_054",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-16",
+      "last_seen_date": "2025-06-24",
+      "is_active": false,
+      "impressions_bucket": "1K-10K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ]
+    }
+  ],
+  "synthetic": true,
+  "source": "generated fixture"
+}

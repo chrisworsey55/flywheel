@@ -1,0 +1,987 @@
+{
+  "objective": "Find the lowest-CAC path to convert global soccer fans into first-time Fanatics Sportsbook bettors ahead of the 2026 FIFA World Cup.",
+  "valid": true,
+  "seed": 20260623,
+  "config": {
+    "population_size": 64,
+    "generations": 15,
+    "fan_count": 100000,
+    "diversity_floor": 0.6
+  },
+  "metaeval": {
+    "null_count": 240,
+    "false_positives": 0,
+    "false_positive_rate": 0.0,
+    "passed": true,
+    "max_null_honest_lift": 0.0,
+    "mean_null_honest_lift": 0.0
+  },
+  "headline": {
+    "best_honest_lift": 0.11090959364293036,
+    "best_naive_lift": 0.14969801553062984,
+    "implied_CAC": 43.27849234984519,
+    "true_lift_hidden_audit": 0.10251582625118034
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_honest_lift": 0.025535880472745756,
+      "current_best_honest_lift": 0.025535880472745756,
+      "mean_honest_lift": 0.00047934593741126965,
+      "best_naive_lift": 0.25,
+      "winner_naive_lift": 0.029685157421289354,
+      "n_eff": 39.38461538461539,
+      "n_eff_ratio": 0.6153846153846154,
+      "mutation_rate": 0.24,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.05128540918163674,
+      "champion_est_CAC": 489.5073037853992,
+      "champion": {
+        "id": "exp_397fe8aa9b45",
+        "hypothesis": "world cup free bet should convert any fans in UK before World Cup intent peaks.",
+        "segment": {
+          "primary_sport": "any",
+          "region": "UK",
+          "min_engagement_tier": 2,
+          "has_bet": false,
+          "collectibles_active": "any"
+        },
+        "channel": "email",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 50.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.025535880472745756,
+        "observed_holdout_lift": 0.05089820359281436,
+        "naive_lift": 0.029685157421289354,
+        "confidence": 0.9925356197611999,
+        "est_CAC": 489.5073037853992,
+        "est_cost": 12.5,
+        "segment_n": 1336,
+        "true_lift_hidden_audit": 0.05128540918163674,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 1,
+      "best_honest_lift": 0.035445884070072646,
+      "current_best_honest_lift": 0.035445884070072646,
+      "mean_honest_lift": 0.0013263718706974306,
+      "best_naive_lift": 0.6666666666666666,
+      "winner_naive_lift": 0.058841300543428204,
+      "n_eff": 38.64150943396226,
+      "n_eff_ratio": 0.6037735849056604,
+      "mutation_rate": 0.24,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.0594583777625883,
+      "champion_est_CAC": 169.2721216415044,
+      "champion": {
+        "id": "exp_23bab00b86e9",
+        "hypothesis": "Mutation of exp_8fc5dc021794: world cup free bet for any fans in EU.",
+        "segment": {
+          "primary_sport": "any",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "EU",
+          "collectibles_active": false
+        },
+        "channel": "push",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.035445884070072646,
+        "observed_holdout_lift": 0.0606407793120463,
+        "naive_lift": 0.058841300543428204,
+        "confidence": 0.9996645287968149,
+        "est_CAC": 169.2721216415044,
+        "est_cost": 6.0,
+        "segment_n": 1463,
+        "true_lift_hidden_audit": 0.0594583777625883,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 2,
+      "best_honest_lift": 0.035445884070072646,
+      "current_best_honest_lift": 0.03534786881503418,
+      "mean_honest_lift": 0.0025634539455033313,
+      "best_naive_lift": 0.3333333333333333,
+      "winner_naive_lift": 0.05064466390711092,
+      "n_eff": 39.38461538461539,
+      "n_eff_ratio": 0.6153846153846154,
+      "mutation_rate": 0.24,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.0594583777625883,
+      "champion_est_CAC": 169.2721216415044,
+      "champion": {
+        "id": "exp_23bab00b86e9",
+        "hypothesis": "Mutation of exp_8fc5dc021794: world cup free bet for any fans in EU.",
+        "segment": {
+          "primary_sport": "any",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "EU",
+          "collectibles_active": false
+        },
+        "channel": "push",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.035445884070072646,
+        "observed_holdout_lift": 0.0606407793120463,
+        "naive_lift": 0.058841300543428204,
+        "confidence": 0.9996645287968149,
+        "est_CAC": 169.2721216415044,
+        "est_cost": 6.0,
+        "segment_n": 1463,
+        "true_lift_hidden_audit": 0.0594583777625883,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 3,
+      "best_honest_lift": 0.05365344862353717,
+      "current_best_honest_lift": 0.05365344862353717,
+      "mean_honest_lift": 0.00628431224608955,
+      "best_naive_lift": 0.22857142857142856,
+      "winner_naive_lift": 0.057653448623537176,
+      "n_eff": 39.38461538461539,
+      "n_eff_ratio": 0.6153846153846154,
+      "mutation_rate": 0.24,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.08139250474383303,
+      "champion_est_CAC": 302.86962752420925,
+      "champion": {
+        "id": "exp_fb823c3f54fc",
+        "hypothesis": "Mutation of exp_081530b661c5: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "email",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 65.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.05365344862353717,
+        "observed_holdout_lift": 0.0779467114213929,
+        "naive_lift": 0.0482538708338497,
+        "confidence": 0.9999999533613383,
+        "est_CAC": 302.86962752420925,
+        "est_cost": 16.25,
+        "segment_n": 2108,
+        "true_lift_hidden_audit": 0.08139250474383303,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 4,
+      "best_honest_lift": 0.0797624249215228,
+      "current_best_honest_lift": 0.0797624249215228,
+      "mean_honest_lift": 0.01469517016577445,
+      "best_naive_lift": 0.15065359477124185,
+      "winner_naive_lift": 0.10594140159357551,
+      "n_eff": 40.96,
+      "n_eff_ratio": 0.64,
+      "mutation_rate": 0.24,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10164757889887123,
+      "champion_est_CAC": 60.17871202790859,
+      "champion": {
+        "id": "exp_b937a32b9a7e",
+        "hypothesis": "Mutation of exp_a6207e04a97c: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": false
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.0797624249215228,
+        "observed_holdout_lift": 0.11185637739262416,
+        "naive_lift": 0.10594140159357551,
+        "confidence": 0.999999999062656,
+        "est_CAC": 60.17871202790859,
+        "est_cost": 4.8,
+        "segment_n": 1447,
+        "true_lift_hidden_audit": 0.10164757889887123,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 5,
+      "best_honest_lift": 0.09764269598760154,
+      "current_best_honest_lift": 0.09764269598760154,
+      "mean_honest_lift": 0.028637308902121742,
+      "best_naive_lift": 0.12254542601248725,
+      "winner_naive_lift": 0.10164269598760155,
+      "n_eff": 36.57142857142857,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.1036200661313179,
+      "champion_est_CAC": 55.303675767880065,
+      "champion": {
+        "id": "exp_13864c5fdf10",
+        "hypothesis": "Mutation of exp_cbfd08bb877d: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 45.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.09764269598760154,
+        "observed_holdout_lift": 0.12468715971366859,
+        "naive_lift": 0.09000871776897013,
+        "confidence": 1.0,
+        "est_CAC": 55.303675767880065,
+        "est_cost": 5.3999999999999995,
+        "segment_n": 2117,
+        "true_lift_hidden_audit": 0.1036200661313179,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 6,
+      "best_honest_lift": 0.10343963528677516,
+      "current_best_honest_lift": 0.10343963528677516,
+      "mean_honest_lift": 0.02716373071917902,
+      "best_naive_lift": 0.1257556854247379,
+      "winner_naive_lift": 0.12113627006998764,
+      "n_eff": 34.13333333333333,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10389977587029088,
+      "champion_est_CAC": 52.20436039849798,
+      "champion": {
+        "id": "exp_13864c5fdf10",
+        "hypothesis": "Mutation of exp_cbfd08bb877d: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 45.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.10343963528677516,
+        "observed_holdout_lift": 0.13044012539641509,
+        "naive_lift": 0.12113627006998764,
+        "confidence": 1.0,
+        "est_CAC": 52.20436039849798,
+        "est_cost": 5.3999999999999995,
+        "segment_n": 2097,
+        "true_lift_hidden_audit": 0.10389977587029088,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 7,
+      "best_honest_lift": 0.10343963528677516,
+      "current_best_honest_lift": 0.10056662690514262,
+      "mean_honest_lift": 0.026631480930583002,
+      "best_naive_lift": 0.13414634146341464,
+      "winner_naive_lift": 0.10456662690514262,
+      "n_eff": 37.925925925925924,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10389977587029088,
+      "champion_est_CAC": 52.20436039849798,
+      "champion": {
+        "id": "exp_13864c5fdf10",
+        "hypothesis": "Mutation of exp_cbfd08bb877d: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 45.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.10343963528677516,
+        "observed_holdout_lift": 0.13044012539641509,
+        "naive_lift": 0.12113627006998764,
+        "confidence": 1.0,
+        "est_CAC": 52.20436039849798,
+        "est_cost": 5.3999999999999995,
+        "segment_n": 2097,
+        "true_lift_hidden_audit": 0.10389977587029088,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 8,
+      "best_honest_lift": 0.10343963528677516,
+      "current_best_honest_lift": 0.09910887503193952,
+      "mean_honest_lift": 0.028028092688195286,
+      "best_naive_lift": 0.12745098039215685,
+      "winner_naive_lift": 0.1127635699094805,
+      "n_eff": 35.310344827586206,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10389977587029088,
+      "champion_est_CAC": 52.20436039849798,
+      "champion": {
+        "id": "exp_13864c5fdf10",
+        "hypothesis": "Mutation of exp_cbfd08bb877d: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 45.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.10343963528677516,
+        "observed_holdout_lift": 0.13044012539641509,
+        "naive_lift": 0.12113627006998764,
+        "confidence": 1.0,
+        "est_CAC": 52.20436039849798,
+        "est_cost": 5.3999999999999995,
+        "segment_n": 2097,
+        "true_lift_hidden_audit": 0.10389977587029088,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 9,
+      "best_honest_lift": 0.10343963528677516,
+      "current_best_honest_lift": 0.08350753595993834,
+      "mean_honest_lift": 0.0212011114118293,
+      "best_naive_lift": 0.22,
+      "winner_naive_lift": 0.11165446189031096,
+      "n_eff": 37.925925925925924,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10389977587029088,
+      "champion_est_CAC": 52.20436039849798,
+      "champion": {
+        "id": "exp_13864c5fdf10",
+        "hypothesis": "Mutation of exp_cbfd08bb877d: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 45.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.10343963528677516,
+        "observed_holdout_lift": 0.13044012539641509,
+        "naive_lift": 0.12113627006998764,
+        "confidence": 1.0,
+        "est_CAC": 52.20436039849798,
+        "est_cost": 5.3999999999999995,
+        "segment_n": 2097,
+        "true_lift_hidden_audit": 0.10389977587029088,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 10,
+      "best_honest_lift": 0.11090959364293036,
+      "current_best_honest_lift": 0.11090959364293036,
+      "mean_honest_lift": 0.031796893085145356,
+      "best_naive_lift": 0.12380000000000001,
+      "winner_naive_lift": 0.11490959364293037,
+      "n_eff": 35.310344827586206,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10251582625118034,
+      "champion_est_CAC": 43.27849234984519,
+      "champion": {
+        "id": "exp_bff00825704d",
+        "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.11090959364293036,
+        "observed_holdout_lift": 0.13949979343212304,
+        "naive_lift": 0.10359424668743902,
+        "confidence": 1.0,
+        "est_CAC": 43.27849234984519,
+        "est_cost": 4.8,
+        "segment_n": 2118,
+        "true_lift_hidden_audit": 0.10251582625118034,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 11,
+      "best_honest_lift": 0.11090959364293036,
+      "current_best_honest_lift": 0.09904921368823512,
+      "mean_honest_lift": 0.037628253918796366,
+      "best_naive_lift": 0.14726775956284152,
+      "winner_naive_lift": 0.12322710391497733,
+      "n_eff": 38.64150943396226,
+      "n_eff_ratio": 0.6037735849056604,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10251582625118034,
+      "champion_est_CAC": 43.27849234984519,
+      "champion": {
+        "id": "exp_bff00825704d",
+        "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.11090959364293036,
+        "observed_holdout_lift": 0.13949979343212304,
+        "naive_lift": 0.10359424668743902,
+        "confidence": 1.0,
+        "est_CAC": 43.27849234984519,
+        "est_cost": 4.8,
+        "segment_n": 2118,
+        "true_lift_hidden_audit": 0.10251582625118034,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 12,
+      "best_honest_lift": 0.11090959364293036,
+      "current_best_honest_lift": 0.09133877745533105,
+      "mean_honest_lift": 0.033335237704916365,
+      "best_naive_lift": 0.1438998689249274,
+      "winner_naive_lift": 0.10022953890225315,
+      "n_eff": 34.71186440677966,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10251582625118034,
+      "champion_est_CAC": 43.27849234984519,
+      "champion": {
+        "id": "exp_bff00825704d",
+        "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.11090959364293036,
+        "observed_holdout_lift": 0.13949979343212304,
+        "naive_lift": 0.10359424668743902,
+        "confidence": 1.0,
+        "est_CAC": 43.27849234984519,
+        "est_cost": 4.8,
+        "segment_n": 2118,
+        "true_lift_hidden_audit": 0.10251582625118034,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 13,
+      "best_honest_lift": 0.11090959364293036,
+      "current_best_honest_lift": 0.10824461222405607,
+      "mean_honest_lift": 0.029152523913593142,
+      "best_naive_lift": 0.1338023511151482,
+      "winner_naive_lift": 0.12278433244170174,
+      "n_eff": 36.57142857142857,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10251582625118034,
+      "champion_est_CAC": 43.27849234984519,
+      "champion": {
+        "id": "exp_bff00825704d",
+        "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.11090959364293036,
+        "observed_holdout_lift": 0.13949979343212304,
+        "naive_lift": 0.10359424668743902,
+        "confidence": 1.0,
+        "est_CAC": 43.27849234984519,
+        "est_cost": 4.8,
+        "segment_n": 2118,
+        "true_lift_hidden_audit": 0.10251582625118034,
+        "passed": true,
+        "fail_reason": null
+      }
+    },
+    {
+      "generation": 14,
+      "best_honest_lift": 0.11090959364293036,
+      "current_best_honest_lift": 0.10917282836164229,
+      "mean_honest_lift": 0.03062484301265262,
+      "best_naive_lift": 0.14969801553062984,
+      "winner_naive_lift": 0.11317282836164229,
+      "n_eff": 37.236363636363635,
+      "n_eff_ratio": 0.6,
+      "mutation_rate": 0.42,
+      "diversity_floor": 0.6,
+      "cluster_count": 48,
+      "champion_true_lift_hidden_audit": 0.10251582625118034,
+      "champion_est_CAC": 43.27849234984519,
+      "champion": {
+        "id": "exp_bff00825704d",
+        "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+        "segment": {
+          "primary_sport": "soccer",
+          "has_bet": false,
+          "min_engagement_tier": 2,
+          "region": "US",
+          "collectibles_active": "any"
+        },
+        "channel": "in_app",
+        "offer": "world_cup_free_bet",
+        "offer_params": {
+          "amount": 40.0,
+          "urgency": "high",
+          "deadline_days": 3
+        },
+        "honest_lift": 0.11090959364293036,
+        "observed_holdout_lift": 0.13949979343212304,
+        "naive_lift": 0.10359424668743902,
+        "confidence": 1.0,
+        "est_CAC": 43.27849234984519,
+        "est_cost": 4.8,
+        "segment_n": 2118,
+        "true_lift_hidden_audit": 0.10251582625118034,
+        "passed": true,
+        "fail_reason": null
+      }
+    }
+  ],
+  "survivors": [
+    {
+      "id": "exp_bff00825704d",
+      "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 2,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 40.0,
+        "urgency": "high",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.11090959364293036,
+      "observed_holdout_lift": 0.13949979343212304,
+      "naive_lift": 0.10359424668743902,
+      "confidence": 1.0,
+      "est_CAC": 43.27849234984519,
+      "est_cost": 4.8,
+      "segment_n": 2118,
+      "true_lift_hidden_audit": 0.10251582625118034,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_17f9dbd25ea1",
+      "hypothesis": "Mutation of exp_9a79a29ee775: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 1,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 100.0,
+        "urgency": "matchday",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.10824461222405607,
+      "observed_holdout_lift": 0.13340402348533967,
+      "naive_lift": 0.12278433244170174,
+      "confidence": 1.0,
+      "est_CAC": 110.86002114508148,
+      "est_cost": 12.0,
+      "segment_n": 2666,
+      "true_lift_hidden_audit": 0.11123053263315827,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_1fde8d6b48fd",
+      "hypothesis": "Mutation of exp_5fee73851247: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 1,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 100.0,
+        "urgency": "matchday",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.10917282836164229,
+      "observed_holdout_lift": 0.1338956077225208,
+      "naive_lift": 0.09878656815041749,
+      "confidence": 1.0,
+      "est_CAC": 109.91746005012529,
+      "est_cost": 12.0,
+      "segment_n": 2592,
+      "true_lift_hidden_audit": 0.11113799382716047,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_13864c5fdf10",
+      "hypothesis": "Mutation of exp_cbfd08bb877d: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 2,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 45.0,
+        "urgency": "high",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.10343963528677516,
+      "observed_holdout_lift": 0.13044012539641509,
+      "naive_lift": 0.12113627006998764,
+      "confidence": 1.0,
+      "est_CAC": 52.20436039849798,
+      "est_cost": 5.3999999999999995,
+      "segment_n": 2097,
+      "true_lift_hidden_audit": 0.10389977587029088,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_39c862cbb3cb",
+      "hypothesis": "Mutation of exp_c11378159ca7: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 2,
+        "region": "US",
+        "collectibles_active": false
+      },
+      "channel": "creator",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 85.0,
+        "urgency": "low",
+        "deadline_days": 7
+      },
+      "honest_lift": 0.08746977004460231,
+      "observed_holdout_lift": 0.11815949125400345,
+      "naive_lift": 0.09341420031539957,
+      "confidence": 0.9999999999972174,
+      "est_CAC": 2332.2343238810045,
+      "est_cost": 204.0,
+      "segment_n": 1442,
+      "true_lift_hidden_audit": 0.10014844660194175,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_8833b882971e",
+      "hypothesis": "Mutation of exp_dfb9b59c5acd: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": "any",
+        "min_engagement_tier": 3,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "creator",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 90.0,
+        "urgency": "matchday",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.09904921368823512,
+      "observed_holdout_lift": 0.12823157057892645,
+      "naive_lift": 0.12322710391497733,
+      "confidence": 0.9999999999999999,
+      "est_CAC": 2180.734121523431,
+      "est_cost": 216.0,
+      "segment_n": 1789,
+      "true_lift_hidden_audit": 0.10718962548910006,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_21a53e4e0289",
+      "hypothesis": "Mutation of exp_df0db84693e6: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 2,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 50.0,
+        "urgency": "low",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.10056662690514262,
+      "observed_holdout_lift": 0.12704889365571592,
+      "naive_lift": 0.08766223057768104,
+      "confidence": 1.0,
+      "est_CAC": 59.66193939923406,
+      "est_cost": 6.0,
+      "segment_n": 2192,
+      "true_lift_hidden_audit": 0.10468760340632605,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_e28c02c539a6",
+      "hypothesis": "Mutation of exp_807f632e292c: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": "any",
+        "min_engagement_tier": 3,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 90.0,
+        "urgency": "matchday",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.09496232117995715,
+      "observed_holdout_lift": 0.12597693850100256,
+      "naive_lift": 0.12713724109605118,
+      "confidence": 0.999999999999933,
+      "est_CAC": 113.72931775260206,
+      "est_cost": 10.799999999999999,
+      "segment_n": 1789,
+      "true_lift_hidden_audit": 0.11374248183342649,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_28c6fcde8a0d",
+      "hypothesis": "Mutation of exp_4bfee9fb85ef: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 2,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "in_app",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 90.0,
+        "urgency": "medium",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.09910887503193952,
+      "observed_holdout_lift": 0.12598814591224458,
+      "naive_lift": 0.1127635699094805,
+      "confidence": 1.0,
+      "est_CAC": 108.97106839846094,
+      "est_cost": 10.799999999999999,
+      "segment_n": 2090,
+      "true_lift_hidden_audit": 0.10673532057416267,
+      "passed": true,
+      "fail_reason": null
+    },
+    {
+      "id": "exp_91855e318166",
+      "hypothesis": "Mutation of exp_b0f8e32b3b6a: world cup free bet for soccer fans in US.",
+      "segment": {
+        "primary_sport": "soccer",
+        "has_bet": false,
+        "min_engagement_tier": 3,
+        "region": "US",
+        "collectibles_active": "any"
+      },
+      "channel": "creator",
+      "offer": "world_cup_free_bet",
+      "offer_params": {
+        "amount": 100.0,
+        "urgency": "matchday",
+        "deadline_days": 3
+      },
+      "honest_lift": 0.09592341999111118,
+      "observed_holdout_lift": 0.12798120858363504,
+      "naive_lift": 0.11306281466736605,
+      "confidence": 0.9999999999997652,
+      "est_CAC": 2501.9958631816903,
+      "est_cost": 240.0,
+      "segment_n": 1488,
+      "true_lift_hidden_audit": 0.1128540994623656,
+      "passed": true,
+      "fail_reason": null
+    }
+  ],
+  "final_champion": {
+    "id": "exp_bff00825704d",
+    "hypothesis": "Mutation of exp_4b26e0389105: world cup free bet for soccer fans in US.",
+    "segment": {
+      "primary_sport": "soccer",
+      "has_bet": false,
+      "min_engagement_tier": 2,
+      "region": "US",
+      "collectibles_active": "any"
+    },
+    "channel": "in_app",
+    "offer": "world_cup_free_bet",
+    "offer_params": {
+      "amount": 40.0,
+      "urgency": "high",
+      "deadline_days": 3
+    },
+    "honest_lift": 0.11090959364293036,
+    "observed_holdout_lift": 0.13949979343212304,
+    "naive_lift": 0.10359424668743902,
+    "confidence": 1.0,
+    "est_CAC": 43.27849234984519,
+    "est_cost": 4.8,
+    "segment_n": 2118,
+    "true_lift_hidden_audit": 0.10251582625118034,
+    "passed": true,
+    "fail_reason": null
+  },
+  "architecture_notes": [
+    "Evaluator adapts ATLAS breeding_loop.gauntlet deflated-Sharpe concepts to deflated lift.",
+    "Diversity adapts the ATLAS Phase B N_eff/N breadth fix with inverse-Simpson effective clusters.",
+    "Evolution mirrors ATLAS Darwinian selection: honest score, novelty/diversity pressure, crossover, mutation, cull."
+  ]
+}

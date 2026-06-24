@@ -1,0 +1,4787 @@
+{
+  "brand": "Fanatics Sportsbook",
+  "market": "GB",
+  "objective": "Predict which real ads a real advertiser keeps alive versus kills, then breed the hypotheses that best predicted fresh holdout reality.",
+  "valid": true,
+  "error": null,
+  "seed": 42,
+  "data_source": {
+    "synthetic": true,
+    "source": "generated fixture",
+    "backend": "committed_sample_placeholder_replace_with_meta_export"
+  },
+  "ads_studied": 54,
+  "headline": {
+    "out_of_sample_hit_rate": 0.5714285714285714,
+    "precision": 0.5714285714285714,
+    "auc": 0.7916666666666666,
+    "calibration": 0.41210659871226646
+  },
+  "studied_ads": [
+    {
+      "id": "fanatics_gb_sample_048",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-22",
+      "last_seen_date": "2025-06-27",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 5
+    },
+    {
+      "id": "fanatics_gb_sample_047",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-19",
+      "last_seen_date": "2025-07-01",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 12
+    },
+    {
+      "id": "fanatics_gb_sample_046",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-06-16",
+      "last_seen_date": "2025-08-30",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 75
+    },
+    {
+      "id": "fanatics_gb_sample_054",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-16",
+      "last_seen_date": "2025-06-24",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 8
+    },
+    {
+      "id": "fanatics_gb_sample_053",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-13",
+      "last_seen_date": "2025-10-11",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 120
+    },
+    {
+      "id": "fanatics_gb_sample_052",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-10",
+      "last_seen_date": "2025-08-24",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 75
+    },
+    {
+      "id": "fanatics_gb_sample_051",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-07",
+      "last_seen_date": "2025-09-06",
+      "is_active": true,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 91
+    },
+    {
+      "id": "fanatics_gb_sample_050",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-06-04",
+      "last_seen_date": "2025-09-03",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 91
+    },
+    {
+      "id": "fanatics_gb_sample_049",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-06-01",
+      "last_seen_date": "2025-06-09",
+      "is_active": false,
+      "impressions_bucket": "<1K",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 8
+    },
+    {
+      "id": "fanatics_gb_sample_040",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Join Fanatics Sportsbook and claim a deposit match for new customers.",
+      "headline": "Welcome offer",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-22",
+      "last_seen_date": "2025-07-23",
+      "is_active": true,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 62
+    },
+    {
+      "id": "fanatics_gb_sample_039",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-19",
+      "last_seen_date": "2025-07-20",
+      "is_active": true,
+      "impressions_bucket": "1M+",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 62
+    },
+    {
+      "id": "fanatics_gb_sample_038",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-16",
+      "last_seen_date": "2025-07-17",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 62
+    },
+    {
+      "id": "fanatics_gb_sample_037",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-13",
+      "last_seen_date": "2025-05-25",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 12
+    },
+    {
+      "id": "fanatics_gb_sample_045",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Get money back as a free bet if your first football bet loses this weekend.",
+      "headline": "Money back special",
+      "cta": "sign_up",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-13",
+      "last_seen_date": "2025-05-25",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 12
+    },
+    {
+      "id": "fanatics_gb_sample_044",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Premier League odds boost live now on Fanatics Sportsbook. Bet now.",
+      "headline": "Price boost live",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-05-10",
+      "last_seen_date": "2025-07-11",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 62
+    },
+    {
+      "id": "fanatics_gb_sample_043",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Back England with a GBP 20 free bet when you stake GBP 10. Bet now before kick off.",
+      "headline": "England free bet tonight",
+      "cta": "bet_now",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-05-07",
+      "last_seen_date": "2025-08-06",
+      "is_active": false,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 91
+    },
+    {
+      "id": "fanatics_gb_sample_042",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "New betting markets available today. Learn more.",
+      "headline": "Generic bet prompt",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "video",
+      "start_date": "2025-05-04",
+      "last_seen_date": "2025-05-09",
+      "is_active": false,
+      "impressions_bucket": "10K-100K",
+      "low_impression_flag": true,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 0,
+      "label_name": "LOSER",
+      "days_running": 5
+    },
+    {
+      "id": "fanatics_gb_sample_041",
+      "advertiser": "Fanatics Sportsbook",
+      "market": "GB",
+      "body_text": "Explore football, racing and more with Fanatics Sportsbook.",
+      "headline": "Sports markets open",
+      "cta": "learn_more",
+      "link_url": "https://www.facebook.com/ads/library/?id=sample",
+      "media_type": "image",
+      "start_date": "2025-05-01",
+      "last_seen_date": "2025-07-31",
+      "is_active": true,
+      "impressions_bucket": "100K-1M",
+      "low_impression_flag": false,
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "label": 1,
+      "label_name": "WINNER",
+      "days_running": 91
+    }
+  ],
+  "todays_experiments": [
+    {
+      "hypothesis": "Mutation of exp_3dc47dbf8318: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": false,
+        "framing": "generic",
+        "offer_type": "none",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.705,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_240a00a8342b",
+        "exp_188d35646a98",
+        "exp_3dc47dbf8318"
+      ],
+      "id": "exp_c715e67dd54d",
+      "naive_score": 0.2857142857142857,
+      "honest_score": 0.0,
+      "p_real": 0.0006672638353963367,
+      "segment_n": 4,
+      "passed": false,
+      "fail_reason": null
+    },
+    {
+      "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+      "predicts": "winner",
+      "feature_rule": {
+        "offer_type": "free_bet",
+        "framing": "generic",
+        "min_urgency": 0.2
+      },
+      "segment": "all studied ads",
+      "confidence": 0.674,
+      "agent": "offer_lab",
+      "lineage": [],
+      "id": "exp_4ede125bae4c",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+      "predicts": "winner",
+      "feature_rule": {
+        "offer_type": "free_bet",
+        "framing": "world_cup",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.577,
+      "agent": "offer_lab",
+      "lineage": [],
+      "id": "exp_775461baf8af",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+      "predicts": "winner",
+      "feature_rule": {
+        "offer_type": "none",
+        "framing": "national_team",
+        "numeric_offer_present": false
+      },
+      "segment": "recent UK sportsbook ads",
+      "confidence": 0.576,
+      "agent": "offer_lab",
+      "lineage": [],
+      "id": "exp_188d35646a98",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_33107dea9cf7: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "national_team",
+        "offer_type": "free_bet",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.606,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_123839595f33",
+        "exp_ebb682b59c4a",
+        "exp_33107dea9cf7"
+      ],
+      "id": "exp_defc98939b5c",
+      "naive_score": 0.4444444444444444,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_eb26d66ec890: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "generic",
+        "offer_type": "free_bet",
+        "min_urgency": 0.2
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.648,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_4ede125bae4c",
+        "exp_123839595f33",
+        "exp_eb26d66ec890"
+      ],
+      "id": "exp_44638d63ddb2",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_8011702f1d3e: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "generic",
+        "offer_type": "free_bet",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.615,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_123839595f33",
+        "exp_ebb682b59c4a",
+        "exp_8011702f1d3e"
+      ],
+      "id": "exp_6e023083d345",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_ed67d7027271: {'numeric_offer_present': False, 'framing': 'lapsed_winback', 'offer_type': 'odds_boost', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": false,
+        "framing": "lapsed_winback",
+        "offer_type": "odds_boost",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.681,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_ebb682b59c4a",
+        "exp_123839595f33",
+        "exp_ed67d7027271"
+      ],
+      "id": "exp_10ebd8c1fdc4",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_680d3940fc00: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.4} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": false,
+        "framing": "generic",
+        "offer_type": "free_bet",
+        "min_urgency": 0.4
+      },
+      "segment": "all studied ads",
+      "confidence": 0.619,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_4ede125bae4c",
+        "exp_123839595f33",
+        "exp_680d3940fc00"
+      ],
+      "id": "exp_c0f8e676a3b7",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_c05520d7750f: {'framing': 'national_team', 'min_urgency': 0.4, 'offer_type': 'none', 'numeric_offer_present': True} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "national_team",
+        "min_urgency": 0.4,
+        "offer_type": "none",
+        "numeric_offer_present": true
+      },
+      "segment": "all studied ads",
+      "confidence": 0.688,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_188d35646a98",
+        "exp_d059f195db36",
+        "exp_c05520d7750f"
+      ],
+      "id": "exp_19af28025644",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_a5b8a295df0c: {'numeric_offer_present': False, 'framing': 'national_team', 'offer_type': 'free_bet'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": false,
+        "framing": "national_team",
+        "offer_type": "free_bet"
+      },
+      "segment": "recent UK sportsbook ads",
+      "confidence": 0.704,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_c715e67dd54d",
+        "exp_188d35646a98",
+        "exp_a5b8a295df0c"
+      ],
+      "id": "exp_6538933c5751",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_0b32c3979424: {'framing': 'world_cup', 'offer_type': 'deposit_match', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "world_cup",
+        "offer_type": "deposit_match",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.705,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_c715e67dd54d",
+        "exp_775461baf8af",
+        "exp_0b32c3979424"
+      ],
+      "id": "exp_226d7f8a6209",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_aab6d104507a: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'odds_boost', 'min_urgency': 0.6} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": true,
+        "framing": "generic",
+        "offer_type": "odds_boost",
+        "min_urgency": 0.6
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.655,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_ebb682b59c4a",
+        "exp_f1f02ee75664",
+        "exp_aab6d104507a"
+      ],
+      "id": "exp_4e66b809787d",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_feddf8e14a2a: {'framing': 'national_team', 'numeric_offer_present': False, 'offer_type': 'none'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "national_team",
+        "numeric_offer_present": false,
+        "offer_type": "none"
+      },
+      "segment": "recent UK sportsbook ads",
+      "confidence": 0.703,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_f1f02ee75664",
+        "exp_188d35646a98",
+        "exp_feddf8e14a2a"
+      ],
+      "id": "exp_18e6858a82ba",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_6a7e9010b06c: {'framing': 'lapsed_winback', 'offer_type': 'deposit_match', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "lapsed_winback",
+        "offer_type": "deposit_match",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.64,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_775461baf8af",
+        "exp_ebb682b59c4a",
+        "exp_6a7e9010b06c"
+      ],
+      "id": "exp_497218820d28",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_5bc0207aefa6: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0, 'numeric_offer_present': True} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "national_team",
+        "offer_type": "free_bet",
+        "min_urgency": 0.0,
+        "numeric_offer_present": true
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.673,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_c715e67dd54d",
+        "exp_d059f195db36",
+        "exp_5bc0207aefa6"
+      ],
+      "id": "exp_26b279a7b96e",
+      "naive_score": 0.4444444444444444,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_d7c0bd5d4102: {'numeric_offer_present': True, 'min_urgency': 0.0, 'framing': 'world_cup', 'offer_type': 'none'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": true,
+        "min_urgency": 0.0,
+        "framing": "world_cup",
+        "offer_type": "none"
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.689,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_f1f02ee75664",
+        "exp_c715e67dd54d",
+        "exp_d7c0bd5d4102"
+      ],
+      "id": "exp_efaf13e8db85",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_25380e75a525: {'framing': 'world_cup', 'offer_type': 'free_bet', 'min_urgency': 0.4} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "world_cup",
+        "offer_type": "free_bet",
+        "min_urgency": 0.4
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.689,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_4ede125bae4c",
+        "exp_ebb682b59c4a",
+        "exp_25380e75a525"
+      ],
+      "id": "exp_fc71cd64a18e",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_3982e493a2ec: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": false,
+        "framing": "generic",
+        "offer_type": "free_bet",
+        "min_urgency": 0.0
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.61,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_ebb682b59c4a",
+        "exp_123839595f33",
+        "exp_3982e493a2ec"
+      ],
+      "id": "exp_8b1e671764ad",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_546a68892e95: {'framing': 'world_cup', 'min_urgency': 0.0, 'offer_type': 'odds_boost'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "world_cup",
+        "min_urgency": 0.0,
+        "offer_type": "odds_boost"
+      },
+      "segment": "all studied ads",
+      "confidence": 0.675,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_d059f195db36",
+        "exp_f1f02ee75664",
+        "exp_546a68892e95"
+      ],
+      "id": "exp_07d6a7f6f292",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_1a2d9f265454: {'framing': 'national_team', 'numeric_offer_present': False, 'min_urgency': 0.2, 'offer_type': 'none'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "national_team",
+        "numeric_offer_present": false,
+        "min_urgency": 0.2,
+        "offer_type": "none"
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.649,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_188d35646a98",
+        "exp_123839595f33",
+        "exp_1a2d9f265454"
+      ],
+      "id": "exp_5348280369a4",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_17380a90b8c6: {'numeric_offer_present': False, 'min_urgency': 0.0, 'framing': 'world_cup', 'offer_type': 'odds_boost'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": false,
+        "min_urgency": 0.0,
+        "framing": "world_cup",
+        "offer_type": "odds_boost"
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.671,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_123839595f33",
+        "exp_f1f02ee75664",
+        "exp_17380a90b8c6"
+      ],
+      "id": "exp_fa1a37b4533c",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_780925953a93: {'numeric_offer_present': True, 'min_urgency': 0.0, 'framing': 'generic', 'offer_type': 'none'} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "numeric_offer_present": true,
+        "min_urgency": 0.0,
+        "framing": "generic",
+        "offer_type": "none"
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.71,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_c715e67dd54d",
+        "exp_123839595f33",
+        "exp_780925953a93"
+      ],
+      "id": "exp_80015abf291a",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_81dd97fc09ae: {'framing': 'generic', 'offer_type': 'bet_insurance', 'min_urgency': 0.2} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "generic",
+        "offer_type": "bet_insurance",
+        "min_urgency": 0.2
+      },
+      "segment": "offer-led creatives",
+      "confidence": 0.618,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_ebb682b59c4a",
+        "exp_4ede125bae4c",
+        "exp_81dd97fc09ae"
+      ],
+      "id": "exp_051b618f5e08",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    },
+    {
+      "hypothesis": "Mutation of exp_5b5715ffa982: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+      "predicts": "winner",
+      "feature_rule": {
+        "framing": "generic",
+        "offer_type": "free_bet",
+        "min_urgency": 0.0
+      },
+      "segment": "all studied ads",
+      "confidence": 0.743,
+      "agent": "crossover+mut",
+      "lineage": [
+        "exp_c715e67dd54d",
+        "exp_d059f195db36",
+        "exp_5b5715ffa982"
+      ],
+      "id": "exp_3ca565e28bd8",
+      "naive_score": 0.0,
+      "honest_score": 0.0,
+      "p_real": 0.0,
+      "segment_n": 0,
+      "passed": false,
+      "fail_reason": "holdout segment n 0 below threshold 4"
+    }
+  ],
+  "cycles": [
+    {
+      "cycle": 0,
+      "metrics": {
+        "accuracy": 0.42857142857142855,
+        "precision": 0.42857142857142855,
+        "recall": 1.0,
+        "auc": 1.0,
+        "calibration": 0.4694286394920036,
+        "n_train": 24,
+        "n_holdout": 7
+      },
+      "n_eff": 12.254901960784311,
+      "n_eff_ratio": 0.4901960784313724,
+      "diversity_floor": 0.6,
+      "mutation_rate": 0.38,
+      "metaeval": {
+        "null_count": 220,
+        "evaluated_null_count": 220,
+        "fail_closed_count": 0,
+        "false_positives": 2,
+        "false_positive_rate": 0.00909090909090909,
+        "passed": true,
+        "max_null_honest_score": 0.024752335658869834,
+        "mean_null_honest_score": 0.00022502123326245303,
+        "signal_count": 2,
+        "signal_pass_count": 1
+      },
+      "top_experiments": [
+        {
+          "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "generic",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.674,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_4ede125bae4c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "world_cup",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.577,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_775461baf8af",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.576,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_188d35646a98",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.659,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_ebb682b59c4a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "generic deposit match creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "deposit_match",
+            "framing": "generic"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.703,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_8e3db85f03f8",
+          "naive_score": 1.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 3,
+          "passed": false,
+          "fail_reason": "holdout segment n 3 below threshold 4"
+        },
+        {
+          "hypothesis": "generic odds boost creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "odds_boost",
+            "framing": "generic"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.592,
+          "agent": "framing_desk",
+          "lineage": [],
+          "id": "exp_8d2a43ee39f6",
+          "naive_score": 1.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "world_cup",
+            "numeric_offer_present": false
+          },
+          "segment": "all studied ads",
+          "confidence": 0.678,
+          "agent": "framing_desk",
+          "lineage": [],
+          "id": "exp_8aed85d21c7e",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup odds boost creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "odds_boost",
+            "framing": "world_cup",
+            "numeric_offer_present": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.58,
+          "agent": "framing_desk",
+          "lineage": [],
+          "id": "exp_59ccb015de71",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.2
+          },
+          "segment": "football-intent creatives",
+          "confidence": 0.575,
+          "agent": "framing_desk",
+          "lineage": [],
+          "id": "exp_25fe611aa94b",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup deposit match creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "deposit_match",
+            "framing": "world_cup",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.753,
+          "agent": "framing_desk",
+          "lineage": [],
+          "id": "exp_6e1f586260e2",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "broad odds boost creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "odds_boost",
+            "min_urgency": 0.2,
+            "has_emoji": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.56,
+          "agent": "urgency_desk",
+          "lineage": [],
+          "id": "exp_8039af337f36",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "broad deposit match creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "deposit_match",
+            "min_urgency": 0.6
+          },
+          "segment": "football-intent creatives",
+          "confidence": 0.772,
+          "agent": "urgency_desk",
+          "lineage": [],
+          "id": "exp_3fc652d987fd",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team creative creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "min_urgency": 0.4
+          },
+          "segment": "football-intent creatives",
+          "confidence": 0.633,
+          "agent": "urgency_desk",
+          "lineage": [],
+          "id": "exp_83a5ad4920ca",
+          "naive_score": 0.4,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "broad bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.2,
+            "has_emoji": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.56,
+          "agent": "urgency_desk",
+          "lineage": [],
+          "id": "exp_c21aa66c277c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team creative creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "min_urgency": 0.4,
+            "has_emoji": false
+          },
+          "segment": "football-intent creatives",
+          "confidence": 0.582,
+          "agent": "urgency_desk",
+          "lineage": [],
+          "id": "exp_00fffeb588eb",
+          "naive_score": 0.4,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "broad none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "min_urgency": 0.6
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.553,
+          "agent": "clarity_desk",
+          "lineage": [],
+          "id": "exp_b7dbbea63242",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "lapsed_winback"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.705,
+          "agent": "clarity_desk",
+          "lineage": [],
+          "id": "exp_adf90971ef64",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.2,
+            "numeric_offer_present": true
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.673,
+          "agent": "clarity_desk",
+          "lineage": [],
+          "id": "exp_bfcaec5d9e07",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "national_team",
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.576,
+          "agent": "clarity_desk",
+          "lineage": [],
+          "id": "exp_32c6eb5529dd",
+          "naive_score": 0.4,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "world_cup",
+            "has_emoji": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.612,
+          "agent": "clarity_desk",
+          "lineage": [],
+          "id": "exp_b687a00e2d91",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "broad free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "numeric_offer_present": false
+          },
+          "segment": "all studied ads",
+          "confidence": 0.585,
+          "agent": "contrarian",
+          "lineage": [],
+          "id": "exp_030b9670f08a",
+          "naive_score": 0.6,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup deposit match creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "deposit_match",
+            "framing": "world_cup",
+            "min_urgency": 0.2,
+            "has_emoji": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.69,
+          "agent": "contrarian",
+          "lineage": [],
+          "id": "exp_4eb17d0e1a94",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "broad free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "has_emoji": false
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.576,
+          "agent": "contrarian",
+          "lineage": [],
+          "id": "exp_44bb8459a42d",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "national team free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.56,
+          "agent": "contrarian",
+          "lineage": [],
+          "id": "exp_5d12dc769768",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.535,
+          "agent": "contrarian",
+          "lineage": [],
+          "id": "exp_ec0781bf933f",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        }
+      ]
+    },
+    {
+      "cycle": 1,
+      "metrics": {
+        "accuracy": 0.5714285714285714,
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "auc": 0.5,
+        "calibration": 0.4469090729007732,
+        "n_train": 31,
+        "n_holdout": 7
+      },
+      "n_eff": 9.328358208955223,
+      "n_eff_ratio": 0.3731343283582089,
+      "diversity_floor": 0.6,
+      "mutation_rate": 0.38,
+      "metaeval": {
+        "null_count": 220,
+        "evaluated_null_count": 220,
+        "fail_closed_count": 0,
+        "false_positives": 5,
+        "false_positive_rate": 0.022727272727272728,
+        "passed": true,
+        "max_null_honest_score": 0.23105762361016424,
+        "mean_null_honest_score": 0.0018350546134910273,
+        "signal_count": 2,
+        "signal_pass_count": 1
+      },
+      "top_experiments": [
+        {
+          "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "generic",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.674,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_4ede125bae4c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "world_cup",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.577,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_775461baf8af",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.576,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_188d35646a98",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.659,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_ebb682b59c4a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_fc54252c1397: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.67,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_8aed85d21c7e",
+            "exp_fc54252c1397"
+          ],
+          "id": "exp_c9c4269e93a1",
+          "naive_score": 0.4,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_07b0ad31a3e9: {'framing': 'generic', 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "odds_boost"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.546,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_8d2a43ee39f6",
+            "exp_188d35646a98",
+            "exp_07b0ad31a3e9"
+          ],
+          "id": "exp_0edad41cd2ef",
+          "naive_score": 1.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_1f0fc80012f5: {'framing': 'world_cup', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.676,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_4ede125bae4c",
+            "exp_1f0fc80012f5"
+          ],
+          "id": "exp_61031aaa17a8",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_6faa1bc237cc: {'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "none",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.63,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_8d2a43ee39f6",
+            "exp_6faa1bc237cc"
+          ],
+          "id": "exp_7ca130caa8f7",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 3,
+          "passed": false,
+          "fail_reason": "holdout segment n 3 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_26d0cf5fb2fe: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'deposit_match'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "generic",
+            "offer_type": "deposit_match"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.69,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_8e3db85f03f8",
+            "exp_59ccb015de71",
+            "exp_26d0cf5fb2fe"
+          ],
+          "id": "exp_108688f2678a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_764d0f10ca5b: {'framing': 'national_team', 'numeric_offer_present': True, 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "numeric_offer_present": true,
+            "offer_type": "odds_boost"
+          },
+          "segment": "all studied ads",
+          "confidence": 0.694,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_59ccb015de71",
+            "exp_8e3db85f03f8",
+            "exp_764d0f10ca5b"
+          ],
+          "id": "exp_2994fc92f6ca",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_134882fde80a: {'framing': 'lapsed_winback', 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "free_bet"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.722,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_4ede125bae4c",
+            "exp_134882fde80a"
+          ],
+          "id": "exp_aaebaf7d96af",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_36a305c3b8eb: {'framing': 'lapsed_winback', 'offer_type': 'deposit_match', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.67,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_8aed85d21c7e",
+            "exp_36a305c3b8eb"
+          ],
+          "id": "exp_cd82375e5ef2",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_a32f64936d41: {'framing': 'world_cup', 'offer_type': 'bet_insurance', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.655,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_ebb682b59c4a",
+            "exp_a32f64936d41"
+          ],
+          "id": "exp_5be4a350b328",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_45719c13a056: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'bet_insurance', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "generic",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.687,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_8aed85d21c7e",
+            "exp_45719c13a056"
+          ],
+          "id": "exp_6e2bcf7a8a81",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_758bb335b55d: {'framing': 'world_cup', 'offer_type': 'bet_insurance'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "bet_insurance"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.722,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_8aed85d21c7e",
+            "exp_8e3db85f03f8",
+            "exp_758bb335b55d"
+          ],
+          "id": "exp_37df731cde52",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_a7dac8137145: {'numeric_offer_present': False, 'framing': 'lapsed_winback', 'offer_type': 'bet_insurance', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "lapsed_winback",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.643,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_188d35646a98",
+            "exp_a7dac8137145"
+          ],
+          "id": "exp_7cec9f0f6698",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_9035c2564a18: {'framing': 'world_cup', 'offer_type': 'none', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "none",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.644,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_8aed85d21c7e",
+            "exp_8d2a43ee39f6",
+            "exp_9035c2564a18"
+          ],
+          "id": "exp_71007b429b2a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_03cfb780624f: {'framing': 'generic', 'numeric_offer_present': False, 'offer_type': 'bet_insurance', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "numeric_offer_present": false,
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.619,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_59ccb015de71",
+            "exp_8aed85d21c7e",
+            "exp_03cfb780624f"
+          ],
+          "id": "exp_807c887860e1",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d251bca11174: {'framing': 'world_cup', 'offer_type': 'deposit_match', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.747,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_59ccb015de71",
+            "exp_8e3db85f03f8",
+            "exp_d251bca11174"
+          ],
+          "id": "exp_eec445863bf2",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_9440109146f1: {'numeric_offer_present': False, 'framing': 'world_cup', 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "world_cup",
+            "offer_type": "free_bet"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.726,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_8aed85d21c7e",
+            "exp_9440109146f1"
+          ],
+          "id": "exp_9e2634520e23",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_64453649884c: {'numeric_offer_present': True, 'framing': 'world_cup', 'offer_type': 'bet_insurance'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "world_cup",
+            "offer_type": "bet_insurance"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.716,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_8d2a43ee39f6",
+            "exp_8aed85d21c7e",
+            "exp_64453649884c"
+          ],
+          "id": "exp_9ed8e5c10960",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d86f478880b7: {'framing': 'national_team', 'offer_type': 'bet_insurance', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.572,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_59ccb015de71",
+            "exp_8d2a43ee39f6",
+            "exp_d86f478880b7"
+          ],
+          "id": "exp_5e2ed58dcff2",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_3d62f0555803: {'framing': 'generic', 'offer_type': 'deposit_match', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.629,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_4ede125bae4c",
+            "exp_3d62f0555803"
+          ],
+          "id": "exp_49178b125ce9",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_69bb0a2fe9a6: {'framing': 'world_cup', 'min_urgency': 0.4, 'offer_type': 'bet_insurance'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "min_urgency": 0.4,
+            "offer_type": "bet_insurance"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.661,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_8aed85d21c7e",
+            "exp_ebb682b59c4a",
+            "exp_69bb0a2fe9a6"
+          ],
+          "id": "exp_45935f9b920d",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d261625c817b: {'framing': 'generic', 'min_urgency': 0.2, 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "min_urgency": 0.2,
+            "offer_type": "odds_boost"
+          },
+          "segment": "all studied ads",
+          "confidence": 0.71,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_59ccb015de71",
+            "exp_4ede125bae4c",
+            "exp_d261625c817b"
+          ],
+          "id": "exp_3527eaab430e",
+          "naive_score": 1.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "metrics": {
+        "accuracy": 0.7142857142857143,
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "auc": 0.8,
+        "calibration": 0.38471296590460835,
+        "n_train": 38,
+        "n_holdout": 7
+      },
+      "n_eff": 13.297872340425531,
+      "n_eff_ratio": 0.5319148936170213,
+      "diversity_floor": 0.6,
+      "mutation_rate": 0.38,
+      "metaeval": {
+        "null_count": 220,
+        "evaluated_null_count": 220,
+        "fail_closed_count": 0,
+        "false_positives": 6,
+        "false_positive_rate": 0.02727272727272727,
+        "passed": true,
+        "max_null_honest_score": 0.1395782607022092,
+        "mean_null_honest_score": 0.0013319415464991067,
+        "signal_count": 2,
+        "signal_pass_count": 1
+      },
+      "top_experiments": [
+        {
+          "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "generic",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.674,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_4ede125bae4c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "world_cup",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.577,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_775461baf8af",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.576,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_188d35646a98",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.659,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_ebb682b59c4a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d62883da4e74: {'framing': 'generic', 'offer_type': 'odds_boost', 'min_urgency': 0.2, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.2,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.602,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_0edad41cd2ef",
+            "exp_d62883da4e74"
+          ],
+          "id": "exp_46e5cb3785ce",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_3693c37d337e: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0,
+            "numeric_offer_present": true
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.622,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_61031aaa17a8",
+            "exp_188d35646a98",
+            "exp_3693c37d337e"
+          ],
+          "id": "exp_fd533a8791ea",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 2,
+          "passed": false,
+          "fail_reason": "holdout segment n 2 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_138940a9bdfd: {'framing': 'national_team', 'offer_type': 'none', 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "none",
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.57,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_775461baf8af",
+            "exp_138940a9bdfd"
+          ],
+          "id": "exp_49ca9aaaab6f",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_bae53cd6fea3: {'numeric_offer_present': True, 'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.701,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_188d35646a98",
+            "exp_bae53cd6fea3"
+          ],
+          "id": "exp_ea38bf8d394c",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 2,
+          "passed": false,
+          "fail_reason": "holdout segment n 2 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_fc6125b0d112: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "free_bet"
+          },
+          "segment": "all studied ads",
+          "confidence": 0.711,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_188d35646a98",
+            "exp_fc6125b0d112"
+          ],
+          "id": "exp_8af31800f1a8",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_06af368f4d71: {'framing': 'world_cup', 'offer_type': 'free_bet', 'min_urgency': 0.0, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.727,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_61031aaa17a8",
+            "exp_775461baf8af",
+            "exp_06af368f4d71"
+          ],
+          "id": "exp_3c978790605f",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_2c895650744e: {'framing': 'generic', 'offer_type': 'deposit_match', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.678,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_61031aaa17a8",
+            "exp_2c895650744e"
+          ],
+          "id": "exp_9f27ddb10e12",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_7fa5e7f4f030: {'framing': 'lapsed_winback', 'offer_type': 'free_bet', 'min_urgency': 0.2, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.66,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_4ede125bae4c",
+            "exp_7fa5e7f4f030"
+          ],
+          "id": "exp_146e39df1ab7",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_7c615ba77431: {'numeric_offer_present': True, 'framing': 'world_cup', 'offer_type': 'none', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "world_cup",
+            "offer_type": "none",
+            "min_urgency": 0.0
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.676,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_188d35646a98",
+            "exp_7c615ba77431"
+          ],
+          "id": "exp_274fd739fe4d",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_9ae3cbcf735e: {'framing': 'national_team', 'min_urgency': 0.0, 'offer_type': 'bet_insurance', 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "min_urgency": 0.0,
+            "offer_type": "bet_insurance",
+            "numeric_offer_present": true
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.552,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_775461baf8af",
+            "exp_9ae3cbcf735e"
+          ],
+          "id": "exp_e71fb7c0b207",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_38faa2efa060: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0,
+            "numeric_offer_present": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.653,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_c9c4269e93a1",
+            "exp_38faa2efa060"
+          ],
+          "id": "exp_9ec8ddb8cd14",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 2,
+          "passed": false,
+          "fail_reason": "holdout segment n 2 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_3c741b4d39a2: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.703,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_7ca130caa8f7",
+            "exp_4ede125bae4c",
+            "exp_3c741b4d39a2"
+          ],
+          "id": "exp_39b7f6f895fa",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_58b04a4b6ec1: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.735,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_61031aaa17a8",
+            "exp_58b04a4b6ec1"
+          ],
+          "id": "exp_e047c70ea252",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 2,
+          "passed": false,
+          "fail_reason": "holdout segment n 2 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_4059df841bc3: {'framing': 'lapsed_winback', 'offer_type': 'odds_boost', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.63,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_0edad41cd2ef",
+            "exp_4059df841bc3"
+          ],
+          "id": "exp_9353e81638c5",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_4dc67fffa948: {'numeric_offer_present': False, 'framing': 'national_team', 'offer_type': 'bet_insurance', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "national_team",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.4
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.678,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_188d35646a98",
+            "exp_4dc67fffa948"
+          ],
+          "id": "exp_fa43cb7c66e8",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_8acd0462ce58: {'framing': 'national_team', 'numeric_offer_present': False, 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "numeric_offer_present": false,
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.618,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_7ca130caa8f7",
+            "exp_8acd0462ce58"
+          ],
+          "id": "exp_6d4b28c9820e",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_5c59019ca27d: {'numeric_offer_present': False, 'framing': 'world_cup', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "world_cup",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.696,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_61031aaa17a8",
+            "exp_188d35646a98",
+            "exp_5c59019ca27d"
+          ],
+          "id": "exp_a804b9699bbb",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_3db99a71e37b: {'framing': 'lapsed_winback', 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.642,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_61031aaa17a8",
+            "exp_3db99a71e37b"
+          ],
+          "id": "exp_ae14397e2e01",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_ba2e9fb04a2d: {'framing': 'lapsed_winback', 'min_urgency': 0.4, 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "min_urgency": 0.4,
+            "offer_type": "odds_boost"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.649,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_0edad41cd2ef",
+            "exp_ebb682b59c4a",
+            "exp_ba2e9fb04a2d"
+          ],
+          "id": "exp_9d1f082f1c03",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_9306082076a6: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "none",
+            "min_urgency": 0.2
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.584,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_0edad41cd2ef",
+            "exp_188d35646a98",
+            "exp_9306082076a6"
+          ],
+          "id": "exp_da44440bd8f6",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_198c70764407: {'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "none",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.681,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_7ca130caa8f7",
+            "exp_61031aaa17a8",
+            "exp_198c70764407"
+          ],
+          "id": "exp_ca864c1ea9a4",
+          "naive_score": 0.2857142857142857,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "metrics": {
+        "accuracy": 0.7142857142857143,
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "auc": 0.7,
+        "calibration": 0.3751629352046871,
+        "n_train": 45,
+        "n_holdout": 7
+      },
+      "n_eff": 10.59322033898305,
+      "n_eff_ratio": 0.423728813559322,
+      "diversity_floor": 0.6,
+      "mutation_rate": 0.38,
+      "metaeval": {
+        "null_count": 220,
+        "evaluated_null_count": 220,
+        "fail_closed_count": 0,
+        "false_positives": 10,
+        "false_positive_rate": 0.045454545454545456,
+        "passed": true,
+        "max_null_honest_score": 0.21656682414512282,
+        "mean_null_honest_score": 0.004256612276307047,
+        "signal_count": 2,
+        "signal_pass_count": 1
+      },
+      "top_experiments": [
+        {
+          "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "generic",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.674,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_4ede125bae4c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "world_cup",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.577,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_775461baf8af",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.576,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_188d35646a98",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.659,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_ebb682b59c4a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_0c388cdb1780: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.727,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_46e5cb3785ce",
+            "exp_0c388cdb1780"
+          ],
+          "id": "exp_240a00a8342b",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_fa25d1bfdcbe: {'framing': 'generic', 'offer_type': 'deposit_match', 'min_urgency': 0.2, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.2,
+            "numeric_offer_present": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.702,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ea38bf8d394c",
+            "exp_775461baf8af",
+            "exp_fa25d1bfdcbe"
+          ],
+          "id": "exp_eedac26c30cf",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_1432186f545d: {'numeric_offer_present': True, 'framing': 'national_team', 'offer_type': 'none', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "national_team",
+            "offer_type": "none",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.681,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ea38bf8d394c",
+            "exp_49ca9aaaab6f",
+            "exp_1432186f545d"
+          ],
+          "id": "exp_b4c022c380fc",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_b546ae0b6f9b: {'framing': 'world_cup', 'numeric_offer_present': True, 'min_urgency': 0.0, 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "numeric_offer_present": true,
+            "min_urgency": 0.0,
+            "offer_type": "free_bet"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.533,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_49ca9aaaab6f",
+            "exp_775461baf8af",
+            "exp_b546ae0b6f9b"
+          ],
+          "id": "exp_f1dd001aef02",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d9e56bb1e055: {'framing': 'national_team', 'numeric_offer_present': True, 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "numeric_offer_present": true,
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.613,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_fd533a8791ea",
+            "exp_49ca9aaaab6f",
+            "exp_d9e56bb1e055"
+          ],
+          "id": "exp_478c5fe3368a",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_6370305236c4: {'framing': 'generic', 'numeric_offer_present': True, 'min_urgency': 0.0, 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "numeric_offer_present": true,
+            "min_urgency": 0.0,
+            "offer_type": "free_bet"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.634,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_49ca9aaaab6f",
+            "exp_fd533a8791ea",
+            "exp_6370305236c4"
+          ],
+          "id": "exp_fcf5d3eff8e7",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d8bf9dee0d3b: {'framing': 'generic', 'offer_type': 'free_bet', 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.553,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_49ca9aaaab6f",
+            "exp_d8bf9dee0d3b"
+          ],
+          "id": "exp_2f602c129f09",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_2bdff8d09ea9: {'framing': 'national_team', 'numeric_offer_present': False, 'min_urgency': 0.0, 'offer_type': 'deposit_match'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "numeric_offer_present": false,
+            "min_urgency": 0.0,
+            "offer_type": "deposit_match"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.632,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_775461baf8af",
+            "exp_2bdff8d09ea9"
+          ],
+          "id": "exp_6c7e571a4759",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_a9f4785728b7: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "generic",
+            "offer_type": "none",
+            "min_urgency": 0.2
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.674,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ea38bf8d394c",
+            "exp_188d35646a98",
+            "exp_a9f4785728b7"
+          ],
+          "id": "exp_2a6d0ff25616",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_60232c457373: {'framing': 'generic', 'numeric_offer_present': False, 'min_urgency': 0.2, 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "numeric_offer_present": false,
+            "min_urgency": 0.2,
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.604,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_49ca9aaaab6f",
+            "exp_46e5cb3785ce",
+            "exp_60232c457373"
+          ],
+          "id": "exp_576fb1d16b60",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_a2ebe044d3b7: {'numeric_offer_present': True, 'framing': 'national_team', 'offer_type': 'none', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "national_team",
+            "offer_type": "none",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.72,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ea38bf8d394c",
+            "exp_49ca9aaaab6f",
+            "exp_a2ebe044d3b7"
+          ],
+          "id": "exp_2158ab8aa280",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_64dc3c59a3b4: {'numeric_offer_present': False, 'framing': 'world_cup', 'offer_type': 'deposit_match', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "world_cup",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.683,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_188d35646a98",
+            "exp_64dc3c59a3b4"
+          ],
+          "id": "exp_11383cbbb0de",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_5fac7b574cf5: {'framing': 'world_cup', 'numeric_offer_present': True, 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "numeric_offer_present": true,
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.66,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_46e5cb3785ce",
+            "exp_49ca9aaaab6f",
+            "exp_5fac7b574cf5"
+          ],
+          "id": "exp_2f384aac740c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_0960c10e262d: {'framing': 'lapsed_winback', 'numeric_offer_present': True, 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "numeric_offer_present": true,
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.634,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_fd533a8791ea",
+            "exp_4ede125bae4c",
+            "exp_0960c10e262d"
+          ],
+          "id": "exp_23e2eaac938c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_30203897958c: {'framing': 'national_team', 'offer_type': 'deposit_match', 'min_urgency': 0.4, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.4,
+            "numeric_offer_present": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.722,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_ea38bf8d394c",
+            "exp_30203897958c"
+          ],
+          "id": "exp_6ecf2fe26396",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_32efff3f299c: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.717,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_ea38bf8d394c",
+            "exp_32efff3f299c"
+          ],
+          "id": "exp_2eace51243ab",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_caa42f4c4f27: {'framing': 'generic', 'numeric_offer_present': False, 'offer_type': 'bet_insurance', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "numeric_offer_present": false,
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.683,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_46e5cb3785ce",
+            "exp_4ede125bae4c",
+            "exp_caa42f4c4f27"
+          ],
+          "id": "exp_4a53356e45e8",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_81dd97fc09ae: {'framing': 'generic', 'offer_type': 'odds_boost', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.682,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_4ede125bae4c",
+            "exp_81dd97fc09ae"
+          ],
+          "id": "exp_2dbb31311c54",
+          "naive_score": 1.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_c245c5c44e74: {'framing': 'national_team', 'offer_type': 'none', 'min_urgency': 0.6} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "none",
+            "min_urgency": 0.6
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.639,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_188d35646a98",
+            "exp_c245c5c44e74"
+          ],
+          "id": "exp_ae8021d8d6e6",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_0f323eaae7b0: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.642,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_fd533a8791ea",
+            "exp_4ede125bae4c",
+            "exp_0f323eaae7b0"
+          ],
+          "id": "exp_d61745ca2960",
+          "naive_score": 0.5,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 1,
+          "passed": false,
+          "fail_reason": "holdout segment n 1 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d30d64778b69: {'framing': 'generic', 'offer_type': 'odds_boost', 'min_urgency': 0.6, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.6,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.646,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_46e5cb3785ce",
+            "exp_d30d64778b69"
+          ],
+          "id": "exp_85ff75f9d73a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        }
+      ]
+    },
+    {
+      "cycle": 4,
+      "metrics": {
+        "accuracy": 0.5714285714285714,
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "auc": 0.7916666666666666,
+        "calibration": 0.41210659871226646,
+        "n_train": 47,
+        "n_holdout": 7
+      },
+      "n_eff": 12.254901960784311,
+      "n_eff_ratio": 0.4901960784313724,
+      "diversity_floor": 0.6,
+      "mutation_rate": 0.38,
+      "metaeval": {
+        "null_count": 220,
+        "evaluated_null_count": 220,
+        "fail_closed_count": 0,
+        "false_positives": 9,
+        "false_positive_rate": 0.04090909090909091,
+        "passed": true,
+        "max_null_honest_score": 0.1289845024483458,
+        "mean_null_honest_score": 0.002603244294953517,
+        "signal_count": 2,
+        "signal_pass_count": 1
+      },
+      "top_experiments": [
+        {
+          "hypothesis": "Mutation of exp_3dc47dbf8318: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "none",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.705,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_240a00a8342b",
+            "exp_188d35646a98",
+            "exp_3dc47dbf8318"
+          ],
+          "id": "exp_c715e67dd54d",
+          "naive_score": 0.2857142857142857,
+          "honest_score": 0.0,
+          "p_real": 0.0006672638353963367,
+          "segment_n": 4,
+          "passed": false,
+          "fail_reason": null
+        },
+        {
+          "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "generic",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.674,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_4ede125bae4c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "world_cup",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.577,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_775461baf8af",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.576,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_188d35646a98",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "lapsed winback bet insurance creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "bet_insurance",
+            "framing": "lapsed_winback",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.659,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_ebb682b59c4a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_738b3d47fff9: {'framing': 'national_team', 'min_urgency': 0.2, 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "min_urgency": 0.2,
+            "offer_type": "free_bet"
+          },
+          "segment": "all studied ads",
+          "confidence": 0.697,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_4ede125bae4c",
+            "exp_738b3d47fff9"
+          ],
+          "id": "exp_d059f195db36",
+          "naive_score": 0.4444444444444444,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d6096a98dd14: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.625,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_f1dd001aef02",
+            "exp_d6096a98dd14"
+          ],
+          "id": "exp_123839595f33",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_473630896e32: {'framing': 'world_cup', 'numeric_offer_present': True, 'min_urgency': 0.0, 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "numeric_offer_present": true,
+            "min_urgency": 0.0,
+            "offer_type": "odds_boost"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.672,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_f1dd001aef02",
+            "exp_4ede125bae4c",
+            "exp_473630896e32"
+          ],
+          "id": "exp_f1f02ee75664",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_6a7e9010b06c: {'framing': 'lapsed_winback', 'offer_type': 'none', 'min_urgency': 0.2, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "none",
+            "min_urgency": 0.2,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.63,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_ebb682b59c4a",
+            "exp_6a7e9010b06c"
+          ],
+          "id": "exp_c8a80a97d007",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_265a87e9dac9: {'framing': 'generic', 'numeric_offer_present': True, 'offer_type': 'bet_insurance', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "numeric_offer_present": true,
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.686,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_eedac26c30cf",
+            "exp_4ede125bae4c",
+            "exp_265a87e9dac9"
+          ],
+          "id": "exp_596092fa9e32",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_939402b9aebd: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'bet_insurance', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "generic",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.642,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_b4c022c380fc",
+            "exp_4ede125bae4c",
+            "exp_939402b9aebd"
+          ],
+          "id": "exp_ec449563da6f",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_9bcfcd97e345: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.2, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.674,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_775461baf8af",
+            "exp_9bcfcd97e345"
+          ],
+          "id": "exp_12bb71b443e1",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_e08eeb8241bb: {'framing': 'world_cup', 'offer_type': 'bet_insurance', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.714,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_eedac26c30cf",
+            "exp_ebb682b59c4a",
+            "exp_e08eeb8241bb"
+          ],
+          "id": "exp_4accb05438a3",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_64470214a518: {'numeric_offer_present': True, 'framing': 'lapsed_winback', 'offer_type': 'bet_insurance', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "lapsed_winback",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.627,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_b4c022c380fc",
+            "exp_64470214a518"
+          ],
+          "id": "exp_5bafc6b2292e",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_78250da271c4: {'numeric_offer_present': False, 'framing': 'national_team', 'offer_type': 'odds_boost', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "national_team",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.614,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_f1dd001aef02",
+            "exp_78250da271c4"
+          ],
+          "id": "exp_c5143db6e1f4",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_8adb6d5085bb: {'numeric_offer_present': False, 'min_urgency': 0.2, 'framing': 'generic', 'offer_type': 'deposit_match'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "min_urgency": 0.2,
+            "framing": "generic",
+            "offer_type": "deposit_match"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.714,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_eedac26c30cf",
+            "exp_f1dd001aef02",
+            "exp_8adb6d5085bb"
+          ],
+          "id": "exp_3b28346cdaec",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_80ba7444f0d2: {'framing': 'generic', 'min_urgency': 0.4, 'offer_type': 'free_bet', 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "min_urgency": 0.4,
+            "offer_type": "free_bet",
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.603,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_f1dd001aef02",
+            "exp_ebb682b59c4a",
+            "exp_80ba7444f0d2"
+          ],
+          "id": "exp_96d12b7121ec",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_fb5dab96b54b: {'framing': 'lapsed_winback', 'numeric_offer_present': True, 'min_urgency': 0.4, 'offer_type': 'bet_insurance'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "numeric_offer_present": true,
+            "min_urgency": 0.4,
+            "offer_type": "bet_insurance"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.693,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_f1dd001aef02",
+            "exp_ebb682b59c4a",
+            "exp_fb5dab96b54b"
+          ],
+          "id": "exp_01cbfef34365",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_6798769e65be: {'framing': 'generic', 'offer_type': 'bet_insurance', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.4
+          },
+          "segment": "all studied ads",
+          "confidence": 0.66,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_ebb682b59c4a",
+            "exp_6798769e65be"
+          ],
+          "id": "exp_48bbe09260d8",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_9136ef3d7a70: {'framing': 'national_team', 'min_urgency': 0.2, 'offer_type': 'deposit_match', 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "min_urgency": 0.2,
+            "offer_type": "deposit_match",
+            "numeric_offer_present": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.682,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_4ede125bae4c",
+            "exp_9136ef3d7a70"
+          ],
+          "id": "exp_2be1569389e3",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_265a87e9dac9: {'framing': 'generic', 'numeric_offer_present': False, 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "numeric_offer_present": false,
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.721,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_eedac26c30cf",
+            "exp_4ede125bae4c",
+            "exp_265a87e9dac9"
+          ],
+          "id": "exp_c8008f5bcbaf",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_48a6ffeba675: {'framing': 'world_cup', 'numeric_offer_present': True, 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "numeric_offer_present": true,
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.601,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_f1dd001aef02",
+            "exp_48a6ffeba675"
+          ],
+          "id": "exp_776500c5be45",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_ecdb47e24c1c: {'numeric_offer_present': True, 'framing': 'world_cup', 'offer_type': 'deposit_match', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "world_cup",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.4
+          },
+          "segment": "all studied ads",
+          "confidence": 0.652,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_eedac26c30cf",
+            "exp_ecdb47e24c1c"
+          ],
+          "id": "exp_745ef4757c99",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_8139b61b8b5d: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'deposit_match', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "generic",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.647,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_eedac26c30cf",
+            "exp_8139b61b8b5d"
+          ],
+          "id": "exp_b1ef94c2cb50",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_42448ab08303: {'numeric_offer_present': True, 'min_urgency': 0.2, 'framing': 'world_cup', 'offer_type': 'deposit_match'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "min_urgency": 0.2,
+            "framing": "world_cup",
+            "offer_type": "deposit_match"
+          },
+          "segment": "all studied ads",
+          "confidence": 0.685,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_eedac26c30cf",
+            "exp_f1dd001aef02",
+            "exp_42448ab08303"
+          ],
+          "id": "exp_972cedb6fed3",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        }
+      ]
+    },
+    {
+      "cycle": 5,
+      "metrics": {
+        "accuracy": 0.5714285714285714,
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "auc": 0.7916666666666666,
+        "calibration": 0.41210659871226646,
+        "n_train": 47,
+        "n_holdout": 7
+      },
+      "n_eff": 12.755102040816325,
+      "n_eff_ratio": 0.510204081632653,
+      "diversity_floor": 0.6,
+      "mutation_rate": 0.38,
+      "metaeval": {
+        "null_count": 220,
+        "evaluated_null_count": 220,
+        "fail_closed_count": 0,
+        "false_positives": 9,
+        "false_positive_rate": 0.04090909090909091,
+        "passed": true,
+        "max_null_honest_score": 0.1289845024483458,
+        "mean_null_honest_score": 0.002603244294953517,
+        "signal_count": 2,
+        "signal_pass_count": 1
+      },
+      "top_experiments": [
+        {
+          "hypothesis": "Mutation of exp_3dc47dbf8318: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'none', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "none",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.705,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_240a00a8342b",
+            "exp_188d35646a98",
+            "exp_3dc47dbf8318"
+          ],
+          "id": "exp_c715e67dd54d",
+          "naive_score": 0.2857142857142857,
+          "honest_score": 0.0,
+          "p_real": 0.0006672638353963367,
+          "segment_n": 4,
+          "passed": false,
+          "fail_reason": null
+        },
+        {
+          "hypothesis": "generic free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "generic",
+            "min_urgency": 0.2
+          },
+          "segment": "all studied ads",
+          "confidence": 0.674,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_4ede125bae4c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "world cup free bet creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "free_bet",
+            "framing": "world_cup",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.577,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_775461baf8af",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "national team none creative will be kept alive more often than baseline ads.",
+          "predicts": "winner",
+          "feature_rule": {
+            "offer_type": "none",
+            "framing": "national_team",
+            "numeric_offer_present": false
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.576,
+          "agent": "offer_lab",
+          "lineage": [],
+          "id": "exp_188d35646a98",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_33107dea9cf7: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.606,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_123839595f33",
+            "exp_ebb682b59c4a",
+            "exp_33107dea9cf7"
+          ],
+          "id": "exp_defc98939b5c",
+          "naive_score": 0.4444444444444444,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_eb26d66ec890: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.648,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_123839595f33",
+            "exp_eb26d66ec890"
+          ],
+          "id": "exp_44638d63ddb2",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_8011702f1d3e: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.615,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_123839595f33",
+            "exp_ebb682b59c4a",
+            "exp_8011702f1d3e"
+          ],
+          "id": "exp_6e023083d345",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_ed67d7027271: {'numeric_offer_present': False, 'framing': 'lapsed_winback', 'offer_type': 'odds_boost', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "lapsed_winback",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.681,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_123839595f33",
+            "exp_ed67d7027271"
+          ],
+          "id": "exp_10ebd8c1fdc4",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_680d3940fc00: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.4
+          },
+          "segment": "all studied ads",
+          "confidence": 0.619,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_123839595f33",
+            "exp_680d3940fc00"
+          ],
+          "id": "exp_c0f8e676a3b7",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_c05520d7750f: {'framing': 'national_team', 'min_urgency': 0.4, 'offer_type': 'none', 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "min_urgency": 0.4,
+            "offer_type": "none",
+            "numeric_offer_present": true
+          },
+          "segment": "all studied ads",
+          "confidence": 0.688,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_d059f195db36",
+            "exp_c05520d7750f"
+          ],
+          "id": "exp_19af28025644",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_a5b8a295df0c: {'numeric_offer_present': False, 'framing': 'national_team', 'offer_type': 'free_bet'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "national_team",
+            "offer_type": "free_bet"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.704,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_c715e67dd54d",
+            "exp_188d35646a98",
+            "exp_a5b8a295df0c"
+          ],
+          "id": "exp_6538933c5751",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_0b32c3979424: {'framing': 'world_cup', 'offer_type': 'deposit_match', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.705,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_c715e67dd54d",
+            "exp_775461baf8af",
+            "exp_0b32c3979424"
+          ],
+          "id": "exp_226d7f8a6209",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_aab6d104507a: {'numeric_offer_present': True, 'framing': 'generic', 'offer_type': 'odds_boost', 'min_urgency': 0.6} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "framing": "generic",
+            "offer_type": "odds_boost",
+            "min_urgency": 0.6
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.655,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_f1f02ee75664",
+            "exp_aab6d104507a"
+          ],
+          "id": "exp_4e66b809787d",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_feddf8e14a2a: {'framing': 'national_team', 'numeric_offer_present': False, 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "numeric_offer_present": false,
+            "offer_type": "none"
+          },
+          "segment": "recent UK sportsbook ads",
+          "confidence": 0.703,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_f1f02ee75664",
+            "exp_188d35646a98",
+            "exp_feddf8e14a2a"
+          ],
+          "id": "exp_18e6858a82ba",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_6a7e9010b06c: {'framing': 'lapsed_winback', 'offer_type': 'deposit_match', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "lapsed_winback",
+            "offer_type": "deposit_match",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.64,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_775461baf8af",
+            "exp_ebb682b59c4a",
+            "exp_6a7e9010b06c"
+          ],
+          "id": "exp_497218820d28",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_5bc0207aefa6: {'framing': 'national_team', 'offer_type': 'free_bet', 'min_urgency': 0.0, 'numeric_offer_present': True} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0,
+            "numeric_offer_present": true
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.673,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_c715e67dd54d",
+            "exp_d059f195db36",
+            "exp_5bc0207aefa6"
+          ],
+          "id": "exp_26b279a7b96e",
+          "naive_score": 0.4444444444444444,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_d7c0bd5d4102: {'numeric_offer_present': True, 'min_urgency': 0.0, 'framing': 'world_cup', 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "min_urgency": 0.0,
+            "framing": "world_cup",
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.689,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_f1f02ee75664",
+            "exp_c715e67dd54d",
+            "exp_d7c0bd5d4102"
+          ],
+          "id": "exp_efaf13e8db85",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_25380e75a525: {'framing': 'world_cup', 'offer_type': 'free_bet', 'min_urgency': 0.4} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "offer_type": "free_bet",
+            "min_urgency": 0.4
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.689,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_4ede125bae4c",
+            "exp_ebb682b59c4a",
+            "exp_25380e75a525"
+          ],
+          "id": "exp_fc71cd64a18e",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_3982e493a2ec: {'numeric_offer_present': False, 'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.61,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_123839595f33",
+            "exp_3982e493a2ec"
+          ],
+          "id": "exp_8b1e671764ad",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_546a68892e95: {'framing': 'world_cup', 'min_urgency': 0.0, 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "world_cup",
+            "min_urgency": 0.0,
+            "offer_type": "odds_boost"
+          },
+          "segment": "all studied ads",
+          "confidence": 0.675,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_d059f195db36",
+            "exp_f1f02ee75664",
+            "exp_546a68892e95"
+          ],
+          "id": "exp_07d6a7f6f292",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_1a2d9f265454: {'framing': 'national_team', 'numeric_offer_present': False, 'min_urgency': 0.2, 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "national_team",
+            "numeric_offer_present": false,
+            "min_urgency": 0.2,
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.649,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_188d35646a98",
+            "exp_123839595f33",
+            "exp_1a2d9f265454"
+          ],
+          "id": "exp_5348280369a4",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_17380a90b8c6: {'numeric_offer_present': False, 'min_urgency': 0.0, 'framing': 'world_cup', 'offer_type': 'odds_boost'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": false,
+            "min_urgency": 0.0,
+            "framing": "world_cup",
+            "offer_type": "odds_boost"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.671,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_123839595f33",
+            "exp_f1f02ee75664",
+            "exp_17380a90b8c6"
+          ],
+          "id": "exp_fa1a37b4533c",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_780925953a93: {'numeric_offer_present': True, 'min_urgency': 0.0, 'framing': 'generic', 'offer_type': 'none'} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "numeric_offer_present": true,
+            "min_urgency": 0.0,
+            "framing": "generic",
+            "offer_type": "none"
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.71,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_c715e67dd54d",
+            "exp_123839595f33",
+            "exp_780925953a93"
+          ],
+          "id": "exp_80015abf291a",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_81dd97fc09ae: {'framing': 'generic', 'offer_type': 'bet_insurance', 'min_urgency': 0.2} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "bet_insurance",
+            "min_urgency": 0.2
+          },
+          "segment": "offer-led creatives",
+          "confidence": 0.618,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_ebb682b59c4a",
+            "exp_4ede125bae4c",
+            "exp_81dd97fc09ae"
+          ],
+          "id": "exp_051b618f5e08",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        },
+        {
+          "hypothesis": "Mutation of exp_5b5715ffa982: {'framing': 'generic', 'offer_type': 'free_bet', 'min_urgency': 0.0} should predict ads kept alive.",
+          "predicts": "winner",
+          "feature_rule": {
+            "framing": "generic",
+            "offer_type": "free_bet",
+            "min_urgency": 0.0
+          },
+          "segment": "all studied ads",
+          "confidence": 0.743,
+          "agent": "crossover+mut",
+          "lineage": [
+            "exp_c715e67dd54d",
+            "exp_d059f195db36",
+            "exp_5b5715ffa982"
+          ],
+          "id": "exp_3ca565e28bd8",
+          "naive_score": 0.0,
+          "honest_score": 0.0,
+          "p_real": 0.0,
+          "segment_n": 0,
+          "passed": false,
+          "fail_reason": "holdout segment n 0 below threshold 4"
+        }
+      ]
+    }
+  ],
+  "metaeval": {
+    "null_count": 220,
+    "evaluated_null_count": 220,
+    "fail_closed_count": 0,
+    "false_positives": 9,
+    "false_positive_rate": 0.04090909090909091,
+    "passed": true,
+    "max_null_honest_score": 0.1289845024483458,
+    "mean_null_honest_score": 0.002603244294953517,
+    "signal_count": 2,
+    "signal_pass_count": 1
+  },
+  "architecture_notes": [
+    "Diversity adapts the ATLAS Phase B inverse-Simpson N_eff/N breadth fix.",
+    "Selection adapts ATLAS Darwinian breeding: honest score, novelty pressure, crossover, mutation, cull.",
+    "Self-improvement means holdout accuracy on fresh real ads improving across cycles, not a score function climbing."
+  ],
+  "history": [
+    {
+      "cycle": 0,
+      "accuracy": 0.42857142857142855,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "auc": 1.0,
+      "calibration": 0.4694286394920036,
+      "n_eff_ratio": 0.4901960784313724,
+      "metaeval_fpr": 0.00909090909090909,
+      "metaeval_evaluated_nulls": 220,
+      "metaeval_fail_closed": 0
+    },
+    {
+      "cycle": 1,
+      "accuracy": 0.5714285714285714,
+      "precision": 0.5714285714285714,
+      "recall": 1.0,
+      "auc": 0.5,
+      "calibration": 0.4469090729007732,
+      "n_eff_ratio": 0.3731343283582089,
+      "metaeval_fpr": 0.022727272727272728,
+      "metaeval_evaluated_nulls": 220,
+      "metaeval_fail_closed": 0
+    },
+    {
+      "cycle": 2,
+      "accuracy": 0.7142857142857143,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "auc": 0.8,
+      "calibration": 0.38471296590460835,
+      "n_eff_ratio": 0.5319148936170213,
+      "metaeval_fpr": 0.02727272727272727,
+      "metaeval_evaluated_nulls": 220,
+      "metaeval_fail_closed": 0
+    },
+    {
+      "cycle": 3,
+      "accuracy": 0.7142857142857143,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "auc": 0.7,
+      "calibration": 0.3751629352046871,
+      "n_eff_ratio": 0.423728813559322,
+      "metaeval_fpr": 0.045454545454545456,
+      "metaeval_evaluated_nulls": 220,
+      "metaeval_fail_closed": 0
+    },
+    {
+      "cycle": 4,
+      "accuracy": 0.5714285714285714,
+      "precision": 0.5714285714285714,
+      "recall": 1.0,
+      "auc": 0.7916666666666666,
+      "calibration": 0.41210659871226646,
+      "n_eff_ratio": 0.4901960784313724,
+      "metaeval_fpr": 0.04090909090909091,
+      "metaeval_evaluated_nulls": 220,
+      "metaeval_fail_closed": 0
+    },
+    {
+      "cycle": 5,
+      "accuracy": 0.5714285714285714,
+      "precision": 0.5714285714285714,
+      "recall": 1.0,
+      "auc": 0.7916666666666666,
+      "calibration": 0.41210659871226646,
+      "n_eff_ratio": 0.510204081632653,
+      "metaeval_fpr": 0.04090909090909091,
+      "metaeval_evaluated_nulls": 220,
+      "metaeval_fail_closed": 0
+    }
+  ],
+  "accuracy_series": [
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.7142857142857143,
+    0.5714285714285714,
+    0.5714285714285714
+  ],
+  "n_eff_series": [
+    0.4901960784313724,
+    0.3731343283582089,
+    0.5319148936170213,
+    0.423728813559322,
+    0.4901960784313724,
+    0.510204081632653
+  ],
+  "callout": {
+    "model": "frozen creative-feature swarm",
+    "example_copy": "England price boost tonight. Bet now with Fanatics Sportsbook.",
+    "prediction": "winner",
+    "honest_confidence": 0.7916666666666666
+  }
+}
