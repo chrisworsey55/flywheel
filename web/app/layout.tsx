@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FLYWHEEL Growth Experiment Swarm",
-  description: "Honest growth-experiment evolution dashboard"
+  title: "FLYWHEEL Transmission",
+  description: "Agent-readable brief for the FLYWHEEL self-improving growth engine"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -13,4 +13,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
